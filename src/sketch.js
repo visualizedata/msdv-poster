@@ -22,7 +22,6 @@ const sketch = p => {
     config.title,
     config.school,
     config.department,
-    config.time,
     ...config.students
   ]
   let featuredText = featuredTextArray[0]
