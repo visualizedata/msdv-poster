@@ -92,7 +92,7 @@ const sketch = p => {
     t.rotate((t.PI / 180) * -45)
 
     t.fill(colors['White'])
-    t.text("featuredText", 20, 20, t.width - 40, t.height - 40)
+    t.text(featuredText, 20, 20, t.width - 40, t.height - 40)
 
     t.pop()
   }
