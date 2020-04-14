@@ -8,25 +8,25 @@
     <div id="canvas"></div>
     <div id="overlay">
       <div class="pa4 absolute top-0 left-0">
-        <div class="f3">{{ school }}</div>
+        <div class="f3">{{ department }}</div>
       </div>
 
       <div class="pa4 absolute top-0 right-0">
-        <div class="f3">{{ department }}</div>
+        <div class="f2">{{ title }}</div>
       </div>
 
       <div class="pa4 absolute bottom-0 left-0">
         <div class="dib mr4 tc">
-          <div class="f3">{{ day }}</div>
-          <div class="f2">{{ date }}</div>
+          <div class="f3"></div>
+          <div class="f2">{{ day }} {{ date }} {{ time }}</div>
         </div>
         <div class="dib">
-          <div class="f2">{{ time }}</div>
+          <div class="f2"></div>
         </div>
       </div>
 
       <div class="pa4 absolute bottom-0 right-0 w-50 tr">
-        <div class="f3" v-html="title.replace(/\n/g,'<br/>')"></div>
+        <div class="f3">{{ school }}</div>
       </div>
     </div>
     <script src="./dist/bundle.js"></script>

@@ -1,10 +1,10 @@
 module.exports = {
-  title: 'Data Visualization Keynotes',
+  title: 'KEYNOTES',
   department: 'MS Data Visualization',
   school: 'Parsons School of Design',
-  location: 'Tishman Auditorium\nUniversity Center\n63 Fifth Avenue',
+  location: 'zoom',
   date: '2020-05-13',
-  time: '6:30pm',
+  time: '6:30PM',
   students: [
     'Mio Akasako',
     'Amanda Anderson-You',
