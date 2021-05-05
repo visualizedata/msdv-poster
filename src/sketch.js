@@ -77,7 +77,7 @@ const sketch = p => {
   }
 
   p.drawTexture1 = ({ t, c } = {}) => {
-    t.background(colors['Parsons Red'])
+    t.background(colors['Light Gray'])
 
     t.push()
     t.noStroke()
@@ -97,7 +97,7 @@ const sketch = p => {
   }
 
   p.drawTexture2 = ({ t } = {}) => {
-    t.background(colors['Parsons Red'])
+    t.background(colors['Light Gray'])
     t.fill(255, 50)
     t.push()
 
@@ -117,7 +117,7 @@ const sketch = p => {
   }
 
   p.draw = () => {
-    p.background(colors['Parsons Red'])
+    p.background(colors['Light Gray'])
 
     p.drawTexture1({ t: texture1, c })
     p.drawTexture2({ t: texture2 })
@@ -159,6 +159,7 @@ const sketch = p => {
   p.updateFeaturedText = () => {
     featuredTextPos++
     featuredText = featuredTextArray[featuredTextPos % featuredTextArray.length]
+    p.select('#date').html(featuredText)
   }
 }
 

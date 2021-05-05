@@ -12,11 +12,14 @@
 // ];
 
 let colors = {
-  'Parsons Red': '#DD5339',
-  'Light Gray': '#F1F2F2',
+  'Parsons Red': 'gray',
+  'Light Gray': 'gray',
   'Design Black': '#483E3E',
   'Black': '#000000',
-  'White': '#FFFFFF'
+  'White': '#FFFFFF',
+  'Cornsilk': '#F6F1D1',
+  'Tea Green': '#CBDFBD',
+  'Magnolia': '#F0E6EF'
 }
 
 module.exports = colors
